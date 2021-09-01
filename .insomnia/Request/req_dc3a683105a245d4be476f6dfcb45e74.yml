@@ -1,0 +1,29 @@
+_id: req_dc3a683105a245d4be476f6dfcb45e74
+type: Request
+parentId: fld_191aabfbcbe54dc082d5180cfc6ff1d5
+modified: 1630516598685
+created: 1630514740809
+url: "{{ base_url_ph }}/person-hub/v1/persons?page=1&pageSize=10"
+name: get persons
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5160022cdbe0423695ac2a6335a15e93
+    name: x-client-id
+    value: "{{ _['x-client-id'] }}"
+    description: ""
+  - id: pair_773cef479a394abe81ec32f12b4838b5
+    name: x-client-secret
+    value: "{{ _['x-client-secret'] }}"
+    description: ""
+authentication: {}
+metaSortKey: -1630514740809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

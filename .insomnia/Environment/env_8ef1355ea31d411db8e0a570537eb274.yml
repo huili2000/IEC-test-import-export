@@ -1,0 +1,50 @@
+_id: env_8ef1355ea31d411db8e0a570537eb274
+type: Environment
+parentId: env_d781871fb43f3cfbb4a2e069688b26c38a77f050
+modified: 1630514684769
+created: 1630514544516
+name: Dev
+data:
+  scheme: https
+  base_path: hcm
+  host: dev.api.ubc.ca
+  host_ph: dev.internal.api.ubc.ca
+  version: v7
+  version_ph: v1
+  academicAppointmentId: FAKE
+  testCaseStartTime: "{% now 'unix', '' %}"
+  referenceType_leaveType: leaveType
+  referenceType_earningCode: earningCode
+  referenceType_functionalHierarchyLevel: functionalHierarchyLevel
+  reference_id_cost_allocation: P000013028
+  pmMaxElapsedTim: "600"
+  startTime: "1629825632223"
+  global_file: H:\insomnia\global\global.json
+  global_x-client_id: H:\insomnia\global\x-client-id.txt
+  global_x-client_secret: H:\insomnia\global\x-client-secret.txt
+  x-client-id: "{% file _['global_x-client_id'] %}"
+  x-client-secret: "{% file _['global_x-client_secret'] %}"
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - host_ph
+    - version
+    - version_ph
+    - academicAppointmentId
+    - testCaseStartTime
+    - referenceType_leaveType
+    - referenceType_earningCode
+    - referenceType_functionalHierarchyLevel
+    - reference_id_cost_allocation
+    - pmMaxElapsedTim
+    - startTime
+    - global_file
+    - global_x-client_id
+    - global_x-client_secret
+    - x-client-id
+    - x-client-secret
+color: null
+isPrivate: false
+metaSortKey: 1630514544516
